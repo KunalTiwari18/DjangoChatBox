@@ -8,7 +8,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['https://djangochatbox.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://logitrackdjango.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://djangochatbox.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
