@@ -6,7 +6,9 @@ SECRET_KEY = 'django-insecure-123456789'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://djangochatbox.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = ['https://logitrackdjango.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
