@@ -6,9 +6,15 @@ SECRET_KEY = 'django-insecure-123456789'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://djangochatbox.onrender.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'logitrackdjango.onrender.com'
+]
 
-CSRF_TRUSTED_ORIGINS = ['https://djangochatbox.onrender.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://logitrackdjango.onrender.com'
+]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
